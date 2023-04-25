@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+ <head>
+  <title>BioLife Plasma Center</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">                        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+
+<!------LOGO------>
+
+    <div class="logo">
+        BioLife 
+         </div>
+<!------NAVIGATION BAR------>
+<div class="navbar">
+  <div class="menu">
+    
+        <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+               <div class="w3-dropdown-hover">
+                      <a href="about.html"><button class="w3-button">ABOUT</button></a>
+                         <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="about.html" class="w3-bar-item w3-button">ABOUT BIOLIFE</a>
+                          <a href="about2.html" class="w3-bar-item w3-button">ABOUT PLASMA</a>
+                          </div>
+                          </div>
+                          <div class="w3-dropdown-hover"> 
+                            <a href="donor.html"><button class="w3-button">DONOR INFO</button></a>
+                              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                      <a href="donor.html" class="w3-bar-item w3-button">NEW DONOR</a>
+                                      <a href="donor2.html" class="w3-bar-item w3-button">CURRENT DONOR</a>
+                              </div>                     
+                      </div>  
+                
+           <a href="schedule.html"><button class="w3-button">SCHEDULE</button></a>
+          <a href="promo.html"><button class="w3-button">PROMOS</button></a>
+          <a href="signup.html"><button class="w3-button">SIGN UP</button></a>
+      </div>
+    </div>
+ 
+
+<!------CONTENT------>
+        </div>
+        
+<div class="content">
+    
+
+    <h3>About BioLife</h3>
+    <p>
+
+<b>Have a question, feedback, or a request? BioLife would love to hear from you.</b>
+<br>
+<br>
+<b>How to Contact Us</b>
+<br>
+<br>
+Just fill out and submit the form below. Visit our Frequently Asked Questions (FAQ) page for
+ immediate responses to some of your general inquiries.
+<br>
+<br>
+<b>Feedback for BioLife?</b>
+<br>
+<br>
+Please be advised that incoming inquiries are not monitored on nights or weekends, therefore, 
+if your request is of a medical nature, urgent, or you need immediate assistance, please call
+ your center directly or a medical professional.
+ <br>
+ <br>
+Also, this form should not be used for making appointments or cancellations.
+<br>
+
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <label for="fname">Email:</label><br>
+  <input type="email" id="fname" name="fname" value="Email Address"><br>
+  <label for="fname">Message:</label><br>
+  <input type="text" id="fname" name="fname" value="Type Here..."><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-teal w3-left-align">
+  Donation Centers</button>
+<div id="Demo1" class="w3-container w3-hide">
+       <br>
+       <p> <b>Find a Donation Center</b>
+         <br>
+         <br>
+         Each BioLife center is a vital part of its community. 
+         Donors not only contribute the source of life-saving therapeutics, 
+         but also contribute to the commercial vitality of their immediate neighborhoods. 
+         The compensation donors receive for their commitment to the BioLife program are
+        spent and re-spent in the community, multiplying their impact and the benefits 
+        to the donors, neighboring businesses and the community at large.
+        <br>
+        <br>
+        Click <a href="forgot.html">HERE</a> to find a Donation Center near YOU!
+    </p>
+
+</div>
+
+    <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-teal w3-left-align">
+      What's New</button>
+     <div id="Demo2" class="w3-container w3-hide">
+     <br>
+     <p>
+       <br>
+       <br>
+       <b>BioLife Plasma Services Opens its 200th Plasma Donation Center in the U.S.</b>
+       <br>
+       <br>
+       We are pleased to announce the opening of our 200th plasma donation center in the United States (U.S.)., 
+       with new locations in West Springfield, Mass. and Pearland, Texas. This is an important milestone in
+        BioLife’s broader expansion plans to continue opening centers in the U.S. to address the urgent and
+         growing need for plasma. Read more.
+         <br>
+         <br>
+       View all BioLife donation center locations.
+       <br>
+       <br>
+       <b>The BioLife Website and Mobile App are now Available in Spanish</b>
+       Did you know you can now set your language preference in your BioLife profile and on our mobile app? 
+       You can make appointments and use our website and mobile app in English or Spanish.
+       <br>
+       <br>
+       We always want to make it more convenient for you to donate, so you can continue to help us save lives. 
+       Don’t have the app? Download it from the App Store here or Google Play here.
+  </p>
+
+
+
+
+    <script>
+      function myFunction(id) {
+var x = document.getElementById(id);
+if (x.className.indexOf("w3-show") == -1) {
+x.className += " w3-show";
+} else { 
+x.className = x.className.replace(" w3-show", "");
+}
+}
+
+
+</script>
+</body>
+</html>
+        
+
+
+
